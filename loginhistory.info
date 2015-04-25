@@ -1,17 +1,7 @@
 name = Login History
-description = An example outlining how a module can define blocks.
-package = Example modules
+description = Keeps track of user logins.
+package = Pro Drupal Development
 core = 7.x
-dependencies[] = block 
 files[] = loginhistory.install
 files[] = loginhistory.module
-
-; Information added by Drupal.org packaging script on 2015-03-11
-version = "7.x-1.x-dev"
-core = "7.x"
-project = "examples"
-datestamp = "1426097283"
-
-
-regions[left_side_rail]     = 'Left side-rail'
- 
+We need an .install file to create the database table to store the login information, so we create sites/all/modules/custom/loginhistory/loginhistory.install.
