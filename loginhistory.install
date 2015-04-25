@@ -42,7 +42,7 @@ function loginhistory_schema() {
 
           
   'indexes' => array(
-  'uid' => array('uid),
+  'uid' => array('uid'),
   ),
 
           
